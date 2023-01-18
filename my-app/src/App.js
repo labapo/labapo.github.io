@@ -6,28 +6,46 @@ import Testimonials from './components/Testimonials';
 import Profile from './components/Profile'
 
 
-import {Grid, Container} from '@mui/material';
+import {Grid, Stack, Box, autocompleteClasses } from '@mui/material';
 
 
 const App = () => {
-    const containerStyle = {
-        display: Grid,
-        gridTemplateColumns: '1fr 1fr',
-    }
     return (
     <>
-    <Container style={containerStyle}>
-    <Grid>
-        <Grid>
+    <Stack direction="row" spacing={2}>
+    <Box
+        component="span"
+        sx={{
+            width: "50%",
+            height: "600px", 
+            border: '2px solid grey',
+            display: 'flex',
+            alignItems: 'center',
+            textAlign: 'center',
+            alignContent: 'center',
+            justifyContent: 'center'
+    }}
+    >
         <Profile />
-        </Grid>
-    </Grid>
-    <div>
+    </Box>
+    <Box
+    component="span"
+    sx={{
+        width: "50%",
+        height: "600px", 
+        border: '2px solid grey',
+        alignItems: 'center',
+        textAlign: 'center',
+        alignContent: 'center',
+        justifyContent: 'center',
+        backgroundColor: "#6D7175"
+    }}
+    >
         <Portfolio />
         <Resume />
         <Testimonials />
-    </div>
-    </Container>
+    </Box>
+    </Stack>
     </>
     )
 }
