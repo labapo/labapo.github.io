@@ -2,7 +2,9 @@ import React from 'react'
 
 function Testimonials() {
   return (
-    <div>Testimonials</div>
+    <div>
+        <h1>Testimonials</h1>
+    </div>
   )
 }
 
