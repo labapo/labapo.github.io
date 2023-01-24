@@ -1,12 +1,9 @@
 import React from 'react';
 //import components
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Testimonials from './components/Testimonials';
+import { Contents } from './components/Contents';
 import Profile from './components/Profile'
 
-
-import {Grid, Stack, Box, autocompleteClasses } from '@mui/material';
+import { Stack, Box } from '@mui/material';
 
 
 const App = () => {
@@ -14,7 +11,6 @@ const App = () => {
     <>
     <Stack direction="row" spacing={2}>
     <Box
-        component="span"
         sx={{
             width: "50%",
             height: "600px", 
@@ -23,13 +19,13 @@ const App = () => {
             alignItems: 'center',
             textAlign: 'center',
             alignContent: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center', 
+            margin: '3em'
     }}
     >
         <Profile />
     </Box>
     <Box
-    component="span"
     sx={{
         width: "50%",
         height: "600px", 
@@ -38,12 +34,12 @@ const App = () => {
         textAlign: 'center',
         alignContent: 'center',
         justifyContent: 'center',
-        backgroundColor: "#6D7175"
+        backgroundColor: "#6D7175",
+        margin: '3em', 
+        padding: '10px'
     }}
     >
-        <Portfolio />
-        <Resume />
-        <Testimonials />
+        <Contents />
     </Box>
     </Stack>
     </>
