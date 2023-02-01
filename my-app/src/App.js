@@ -11,9 +11,8 @@ const App = () => {
     <Stack direction="row" spacing={2}>
     <Box
         sx={{
-            width: "50%",
+            width: "30%",
             height: "600px", 
-            border: '2px solid grey',
             display: 'flex',
             alignItems: 'center',
             textAlign: 'center',
@@ -26,8 +25,8 @@ const App = () => {
     </Box>
     <Box
     sx={{
-        width: "50%",
-        height: "600px", 
+        width: "65%",
+        height: "vh", 
         border: '2px solid grey',
         alignItems: 'center',
         textAlign: 'center',
