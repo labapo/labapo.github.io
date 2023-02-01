@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Jeopardy from "../images/Jeopardy.png";
 import memories from "../images/memories.png";
 import Placeholder from "../images/Placeholder.png";
+import Button from "react-bootstrap/Button";
 
 function Portfolio() {
   return (
@@ -13,7 +14,9 @@ function Portfolio() {
         </a>
         <Carousel.Caption>
           <h4 className="caption-text">Jeopardy</h4>
-          <p></p>
+          <Button variant="primary" href="https://github.com/labapo/jeopardy-game">
+          GitHub
+        </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,7 +25,9 @@ function Portfolio() {
         </a>
         <Carousel.Caption>
           <h4 className="caption-text">Memories App</h4>
-          <p></p>
+          <Button variant="primary" href="https://github.com/labapo/memories">
+          GitHub
+        </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +35,11 @@ function Portfolio() {
 
         <Carousel.Caption>
           <h4 className="caption-text">Social Contact Book</h4>
-          <p></p>
+          <p>
+          <Button className="primary" variant="primary" href="https://github.com/labapo/mern-app-final-project">
+          GitHub
+        </Button>
+        </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

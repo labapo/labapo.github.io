@@ -4,10 +4,15 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import Button from '@mui/material/Button';
+import AbapoResume from '/Users/lorivieabapo/Desktop/personal-portfolio/my-app/src/images/AbapoResume.pdf'
 
 export default function Resume() {
   return (
     <div>
+      <Button href={AbapoResume} download>
+        Download Resume
+      </Button>
       <Accordion>
         <AccordionSummary
           expandIcon={<ArrowDropDownIcon />}
