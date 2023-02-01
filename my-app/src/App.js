@@ -2,7 +2,6 @@ import React from 'react';
 //import components
 import { Contents } from './components/Contents';
 import Profile from './components/Profile'
-
 import { Stack, Box } from '@mui/material';
 
 
