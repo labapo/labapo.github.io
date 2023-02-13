@@ -1,28 +1,32 @@
-import React from 'react'
+import React from "react";
 import Card from "react-bootstrap/Card";
-import Placeholder from "../../images/Placeholder.png"
 import { Avatar } from "@mui/material";
-
+import Ariel from "../../images/Ariel.png"
 function ariel() {
   return (
     <div>
-        <Card>
-        <Card.Header>Ariel</Card.Header>
+      <Card>
+        <Card.Header>Ariel Stitt - Per Scholas Instructor</Card.Header>
         <Card.Body>
           <Avatar
             alt="Ariel"
-            src={Placeholder}
+            src={Ariel}
             sx={{ width: 150, height: 150 }}
             className="avatar-card"
           />
-          <Card.Title>Short Headline</Card.Title>
+          <br />
+          <Card.Title>Master of organization, a thoughtful and
+            collaborative learner</Card.Title>
           <Card.Text>
-            Supporting Text here
+            Lorivie always pushes herself to excel. She asks great questions to
+            keep me on my toes, does her research to find the answers, and goes
+            the extra mile. A master of organization, a thoughtful and
+            collaborative learner, and a pleasure to work with in my class.
           </Card.Text>
         </Card.Body>
       </Card>
     </div>
-  )
+  );
 }
 
-export default ariel
+export default ariel;

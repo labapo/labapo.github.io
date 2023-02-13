@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import Contact from '../Contact';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Intro from '../Intro'
@@ -33,9 +32,6 @@ export const NavBar = () => {
                     </Tab>
                     <Tab eventKey="testimonials" title="Testimonals" variant="tabs">
                         <Testimonials />
-                    </Tab>
-                    <Tab eventKey="contact" title="Contact" variant="tabs">
-                        <Contact />
                     </Tab>
                     </Tabs>
             </Container>

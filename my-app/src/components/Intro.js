@@ -3,11 +3,11 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div>
+    <body>
     <Typography variant="h1">
       <h1>About Me</h1>
     </Typography>
-    <Typography variant="body1">
+    <Typography variant="body2" component={'span'}>
         <p>
           Thank you for visiting my page! I am currently attending a Software
           Engineering BootCamp at Per Scholas with an anticipated graduation
@@ -15,9 +15,9 @@ const Intro = () => {
         </p>
         <br />
         <p>
-          My professional experience includes:
+          <span style={{fontWeight: "bold"}}>My professional experience includes:</span>
           <br />
-          <ul>
+          <ul >
             <li>Teaching: College and Elementary Education</li>
             <li>Marketing</li>
             <li>Product Support and Integration</li>
@@ -42,7 +42,7 @@ const Intro = () => {
         </p>
       </div>
     </Typography>
-    </div>
+    </body>
   );
 };
 
