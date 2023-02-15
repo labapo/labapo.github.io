@@ -1,7 +1,8 @@
 import React from "react";
 import headshot from "../images/headshot.png";
 import { Avatar } from "@mui/material";
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
+import ProfileBar from "./ProfileBar/ProfileBar";
 
 export const Profile = () => {
   return (
@@ -15,16 +16,8 @@ export const Profile = () => {
         }}
       />
       <h1>Lorivie Abapo</h1>
-      <div className="social">
-        <Button variant="contained" href="https://www.linkedin.com/in/lorivieabapo/">
-          LinkedIn
-        </Button>
-        <Button variant="contained" href="https://github.com/labapo?tab=repositories">
-          GitHub
-        </Button>
-        <Button variant="contained" href="mailto:labapo@gmail.com">
-          Email Me!
-        </Button>
+      <div>
+        <ProfileBar />
       </div>
     </div>
   );
