@@ -5,7 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Button from "@mui/material/Button";
-import AbapoResume from "../AbapoResume.pdf";
+import AbapoResume from "./AbapoResume.pdf";
 import EducationTable from "./ResumeEducation";
 import ResumeExperience from "./ResumeExperience"
 

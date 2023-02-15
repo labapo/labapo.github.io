@@ -5,7 +5,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Intro from '../Intro'
 import Testimonials from '../Testimonials';
-import Resume from '../Resume';
+import Resume from '../Resume/Resume';
 import Portfolio from '../Portfolio';
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { NavBar } from './NavBar/NavBar'
 import {Routes, Route} from 'react-router-dom'
 import Intro from './Intro'
-import Resume from './Resume'
+import Resume from './Resume/Resume'
 import Portfolio from './Portfolio'
 import Testimonials from './Testimonials'
 

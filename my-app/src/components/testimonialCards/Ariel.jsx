@@ -6,7 +6,13 @@ function ariel() {
   return (
     <div>
       <Card>
-        <Card.Header>Ariel Stitt - Per Scholas Instructor</Card.Header>
+        <Card.Header>Ariel Stitt - Per Scholas Instructor
+        <Card.Subtitle className="fw-light text-muted">
+            Technical Instructor 
+            <br />
+              Per Scholas
+            </Card.Subtitle>
+        </Card.Header>
         <Card.Body>
           <Avatar
             alt="Ariel"

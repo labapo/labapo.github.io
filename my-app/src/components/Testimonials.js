@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Ariel from './testimonialCards/Ariel'
 import Kirk from "./testimonialCards/Kirk"
-import Contact from './testimonialCards/Contact'
+import Jesse from './testimonialCards/Jesse'
 
 function Testimonials() {
   const [index, setIndex] = useState(0);
@@ -16,11 +16,11 @@ function Testimonials() {
       <Carousel.Item>
       <Ariel />
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
       <Kirk />
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
-      <Contact />
+      <Jesse />
       </Carousel.Item>
     </Carousel>
     </div>
