@@ -3,6 +3,8 @@ import React from 'react';
 import { Contents } from './components/Contents';
 import Profile from './components/Profile'
 import { Stack, Box } from '@mui/material';
+import background from './images/background.png';
+
 
 
 const App = () => {
@@ -34,7 +36,9 @@ const App = () => {
         justifyContent: 'center',
         backgroundColor: "#6D7175",
         margin: '3em', 
-        padding: '10px'
+        padding: '10px',
+        backgroundImage: `url(${background})`
+
     }}
     >
         <Contents />
