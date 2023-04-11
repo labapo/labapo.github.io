@@ -6,11 +6,11 @@ function ariel() {
   return (
     <div>
       <Card>
-        <Card.Header>Ariel Stitt - Per Scholas Instructor
+        <Card.Header className="fw-bold">Ariel Stitt
         <Card.Subtitle className="fw-light text-muted">
             Technical Instructor 
             <br />
-              Per Scholas
+              Software Engineering Boot Camp Instructor
             </Card.Subtitle>
         </Card.Header>
         <Card.Body>

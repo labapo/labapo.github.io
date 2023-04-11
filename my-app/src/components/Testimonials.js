@@ -16,9 +16,9 @@ function Testimonials() {
       <Carousel.Item>
       <Ariel />
       </Carousel.Item>
-      {/* <Carousel.Item>
+      <Carousel.Item>
       <Kirk />
-      </Carousel.Item> */}
+      </Carousel.Item>
       <Carousel.Item>
       <Jesse />
       </Carousel.Item>
