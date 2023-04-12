@@ -14,8 +14,8 @@ export const NavBar = () => {
   return (
     <>
         <Navbar bg="light">
-            <Container style={{ 
-                flexDirection: "column"
+            <Container maxWidth='md' style={{ 
+                flexDirection: "column",
                 }}>
                     <Tabs
                     className='mb-3'

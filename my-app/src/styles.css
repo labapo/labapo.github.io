@@ -33,3 +33,22 @@ ul {
     border-radius: 100%;
     border: 1px solid black;
 }
+
+/* Styles for small mobile screens */
+@media (max-width: 400px) {
+    .profile-container,
+    .contents-container {
+        width: 100%;
+    }
+}
+
+/* Styles for medium-sized screens and above */
+@media (min-width: 401px) {
+    .profile-container {
+        width: 30%;
+    }
+
+    .contents-container {
+        width: 65%;
+    }
+}
