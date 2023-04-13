@@ -19,12 +19,13 @@ export const NavBar = () => {
                 }}>
                     <Tabs
                     className='mb-3'
-                    justify
+                    justify 
+                    sx={{width: "100%"}}
                     >
                     <Tab eventKey='introduction' title="Introduction" variant="tabs">
                     <Intro />
                     </Tab>
-                    <Tab eventKey="resume" title="Resume" variant="tabs">
+                <Tab eventKey="resume" title="Resume" variant="tabs">
                         <Resume />
                     </Tab>
                     <Tab eventKey="portfolio" title="Portfolio" variant="tabs"> 

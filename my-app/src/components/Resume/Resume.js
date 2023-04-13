@@ -11,7 +11,7 @@ import ResumeExperience from "./ResumeExperience"
 
 export default function Resume() {
   return (
-    <body>
+    <div className="resumestuff" sx={{width: "100%"}}>
       <Button href={AbapoResume} download>
         Download Resume
       </Button>
@@ -95,6 +95,6 @@ export default function Resume() {
           learning objectives, and differentiated instruction */}
         </AccordionDetails>
       </Accordion>
-    </body>
+    </div>
   );
 }

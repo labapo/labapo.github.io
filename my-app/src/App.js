@@ -8,7 +8,7 @@ import background from "./images/background.png";
 const App = () => {
   return (
     <>
-      <Stack direction="row" spacing={2}>
+      <Stack direction={{sm: "column", md: "row"}} spacing={2}  alignItems="center">
         <Box
           sx={{
             height: "vh",
