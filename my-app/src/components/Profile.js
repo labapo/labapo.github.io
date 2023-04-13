@@ -1,7 +1,6 @@
 import React from "react";
 import headshot from "../images/headshot.png";
 import { Avatar } from "@mui/material";
-import Button from "@mui/material/Button";
 import ProfileBar from "./ProfileBar/ProfileBar";
 
 export const Profile = () => {

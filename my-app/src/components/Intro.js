@@ -4,8 +4,8 @@ import React from "react";
 const Intro = () => {
   return (
     <body>
-    <Typography variant="h1">
-      <h1>About Me</h1>
+    <Typography variant="h3">
+      <h4>About Me</h4>
     </Typography>
     <Typography variant="body2" component={'span'}>
         <p>
