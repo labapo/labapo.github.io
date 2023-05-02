@@ -3,6 +3,7 @@ import headshot from "../images/headshot.png";
 import { Avatar } from "@mui/material";
 import ProfileBar from "./ProfileBar/ProfileBar";
 
+
 export const Profile = () => {
   return (
     <div>

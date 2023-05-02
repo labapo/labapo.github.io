@@ -34,7 +34,7 @@ function Portfolio() {
         <img className="d-block w-100" src={Placeholder} alt="Third slide" />
 
         <Carousel.Caption>
-          <h4 className="caption-text">Social Contact Book</h4>
+          <h4 className="caption-text">Tableau Dashboard</h4>
           <p>
           <Button className="primary" variant="primary" href="https://github.com/labapo/mern-app-final-project">
           GitHub

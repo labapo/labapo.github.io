@@ -31,7 +31,7 @@ export default function Resume() {
             non-profit sector in mission-driven work. Strengths include
             technical troubleshooting, cross-team collaboration, and customer
             service. Highly passionate about education equity and helping with
-            positive student outcomes. MERN Stack Certification is expected in
+            positive student outcomes. MERN Stack Certification completed in
             February 2023.
           </Typography>
         </AccordionDetails>
